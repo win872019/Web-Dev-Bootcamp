@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="" />
+    <title>&#127922; form tag</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="description"
+      content="whatever desscription we have for the page"
+    />
+
+    <meta name="author" content="" />
+
+  </head>
+  <body>
+
+    <h2>&#9813; form tag 裡的標籤</h2>
+
+    <form action="" method="get">
+      <label for="myName">姓名：</label>
+      <input id="myName" type="text" />
+
+      <br />
+
+      <label for="gen">性別：</label>
+      <select name="gender" id="gen" required>
+        <option></option>
+        <option value="male">男性</option>
+        <option value="female">女性</option>
+        <option value="other">其他</option>
+      </select>
+
+      <br />
+
+      <label for="mail">信箱：</label>
+      <input type="email" id="mail" name="email" />
+
+      <br />
+
+      <label for="age">年齡：</label>
+      <input type="number" min="20" max="120" />
+
+      <br />
+
+      <label for="area">地區：</label>
+      <input list="areaList" type="text" name="myArea" id="area" />
+      <datalist id="areaList">
+        <option value="基隆市"></option>
+        <option value="新北市">新北</option>
+        <option value="台北市">台北</option>
+        <option value="台中市">台中</option>
+      </datalist>
+
+      <br />
+
+      <label for="suggest">建議：</label>
+      <br />
+      <!-- 注意<textarea></textarea>中間不能有空白，placeholder才不會被蓋掉 -->
+      <textarea
+        name="suggestion"
+        id="suggest"
+        cols="30"
+        rows="10"
+        placeholder="感謝提供建議"
+      ></textarea>
+
+      <br />
+
+      <input type="checkbox" name="promotion" id="promo" checked />
+      <label for="promo">訂閱最新活動資訊</label>
+
+      <br />
+      <!-- 測試用 -->
+      0<input type="range" min="0" max="100" step="0.1" />100
+
+      <br />
+
+      <button type="submit">提交表單</button>
+    </form>
+  </body>
+</html>
