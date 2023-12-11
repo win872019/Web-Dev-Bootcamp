@@ -1,0 +1,25 @@
+h2::selection{
+    background-color: green;
+    color:yellow;
+}
+
+p::selection{
+    background-color: pink;
+    color:purple;
+}
+
+
+
+
+/* 如果此css外部連結放在internal styling 後面，會生效*/
+/* h2{
+    color:aqua;
+} */
+
+h3{
+    color: lawngreen;
+}
+
+div.link1 a{
+    color:red;
+}
