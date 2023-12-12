@@ -1,3 +1,13 @@
+/* bakground-image */
+body{
+    background-image: url(/practice/images/sun&hand.jpg);
+}
+
+
+
+
+
+/* pseudo-element */
 h2::selection{
     background-color: green;
     color:yellow;
@@ -6,7 +16,27 @@ h2::selection{
 p::selection{
     background-color: pink;
     color:purple;
+    
 }
+
+
+p{
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+
+a{
+    text-decoration: none;
+    width:10vw;
+}
+
+/* pseudo-class */
+a:visited{
+    color: grey;
+}
+
+
 
 
 
