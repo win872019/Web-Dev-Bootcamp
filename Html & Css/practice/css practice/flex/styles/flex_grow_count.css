@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div.container {
+  /* border:1px solid black; */
+  height: 300px;
+  background-color: black;
+
+  /* flex */
+  display: flex;
+  /* flex-direction: column; */
+}
+
+
+.box1 {
+    flex: 1 1 100px;
+  background-color: aqua;
+}
+
+.box2 {
+    flex: 1 1 100px;
+  background-color: gray;
+}
+
+/* .box3{
+    background-color: red;
+}
+
+.box4{
+    background-color:greenyellow;
+}
+
+.box5{
+    background-color: chocolate;
+} */

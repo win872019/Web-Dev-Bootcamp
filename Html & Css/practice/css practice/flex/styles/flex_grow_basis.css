@@ -1,0 +1,116 @@
+
+/* css reset */
+*{
+    padding:0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* 第一個container */
+.container{
+
+    border:1px solid black;
+
+
+    /* flex */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+
+}
+
+.box{
+    /* width: 300px; */
+    height: 100px;
+
+    
+}
+
+/* 台灣project RWD 模板 */
+.box1{
+    background-color: aqua;
+    flex-grow: 4;
+    flex-basis: 550px;
+    
+}
+
+
+.box2{
+    background-color: gray;
+    flex-grow: 1;
+    flex-basis: 250px;
+}
+
+
+
+/* 第2個 container */
+
+.container2{
+    
+    border:1px solid black;
+
+
+    /* flex */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+
+.box3{
+    background-color: red;
+    /* flex-grow: 1; */
+    flex-basis: 300px;
+
+}
+
+.box4{
+    background-color:greenyellow;
+    /* flex-grow: 1; */
+    flex-basis: 300px;
+}
+
+.box5{
+    background-color: chocolate;
+    /* flex-grow: 1; */
+    flex-basis: 100px;
+}
+
+
+
+
+/* 第3個 container */
+
+.container3{
+    
+    border:1px solid black;
+
+
+    /* flex */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+
+.box6{
+    background-color: pink;
+    flex-grow: 1;
+    flex-basis: 100px;
+
+}
+
+.box7{
+    background-color:green;
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+.box8{
+    background-color: blue;
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+

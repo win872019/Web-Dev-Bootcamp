@@ -1,0 +1,47 @@
+
+
+
+.container{
+
+    border:1px solid black;
+    height: 500px;
+
+    /* flex */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+    /* align-items: stretch; (default) */
+    align-items: end;
+
+
+
+}
+
+/* .box{
+    width: 100px;
+    height: 50px;
+} */
+
+
+.box1{
+    background-color: aqua;
+}
+
+
+.box2{
+    background-color: gray;
+    align-self: stretch;
+}
+
+.box3{
+    background-color: red;
+}
+
+.box4{
+    background-color:greenyellow;
+}
+
+.box5{
+    background-color: chocolate;
+}
