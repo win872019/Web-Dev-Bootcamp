@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: bisque;
+}
+header h1 {
+  color: rgb(145, 75, 42);
+}
+header:hover {
+  background-color: burlywood;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  color: darkolivegreen;
+  background-color: papayawhip;
+}
+
+.top {
+  flex: 1 1 100%;
+  font-size: 1.2rem;
+}
+
+.left {
+  flex: 1 1 50%;
+}
+
+.right {
+  flex: 1 1 50%;
+}/*# sourceMappingURL=sass practice.css.map */

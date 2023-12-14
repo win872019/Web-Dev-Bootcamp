@@ -1,0 +1,13 @@
+
+/* local-font 使用 */
+
+@font-face {
+    font-family: "chingSong1";
+    src: url(../../font/JasonHandwriting1.ttf);   
+}
+
+
+
+*{
+    font-family: "chingSong1",monospace;
+}
