@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 圖片取代文字 */
+/* 製作圓形 */
+.header h1 {
+  background: url(../../images/sun&hand.jpg);
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box {
+  border-radius: 50%;
+  height: 10rem;
+  width: 10rem;
+  font-size: 3.3333333333rem;
+  background-color: #0f0;
+}/*# sourceMappingURL=mixin_library.css.map */

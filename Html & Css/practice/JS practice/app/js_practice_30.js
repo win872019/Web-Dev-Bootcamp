@@ -1,4 +1,5 @@
 /* Simple Exercise I */
+/* 需注意程度 * - *** */
 
 /* 1 */
 printMany();
@@ -33,29 +34,31 @@ function stars(n){
 
 
 
-/* 4 */
+/* 4** */
 let ans4=isUpperCase("aBCD");
 console.log(ans4);
 
 function isUpperCase(str){
-  let str2=str.toUpperCase();
-    if(str[0]==str2[0]){
-      return true;
-    }else{
-      return false;
-    }
+  if(str.length==0){
+    return false;
+  }
+  /* ↓簡潔寫法 */ 
+  return str[0]==str.toUpperCase()[0]
+
 };
 
 
 
-/* 5 */
+/* 5** 影片答案應該是錯的*/
 let ans5=isAllUpperCase("ABcD");
 console.log(ans5);
 
 function isAllUpperCase(str){
-  let str2=str.toUpperCase();
+  if(str.length==0){
+    return false;
+  }
   for(let i=0;i<str.length;i++){
-    if(str[i]==str2[i]){
+    if(str[i]==str.toUpperCase()[i]){
       continue;
     }else{
       return false;
@@ -71,9 +74,9 @@ function isAllUpperCase(str){
 /* 6 *** */
 position("aac"); 
 function position(str){
-  let str2=str.toUpperCase();
+
   for(let i=0;i<str.length;i++){
-    if(str[i]==str2[i]){
+    if(str[i]==str.toUpperCase()[i]){
       console.log(str[i], i);
       return;
     }        
@@ -152,14 +155,116 @@ function sum(arr){
 
 /* Simple Exercise II */
 /* 1 */
+stars2(4);
+function stars2(n){
+  let st="";
+  for (let i = 1; i <= n; i++){
+    st+="*";
+    console.log(st);
+  }
+}
+
+
+
+
 /* 2 */
-/* 3 */
+stars3(1);
+function stars3(n){
+  let st="";
+  for (let i = 1; i <= n; i++){
+    if(i>1){
+      st+="\n";
+    }
+    for(let j=1; j<=i;j++){
+      st+="*";
+    }
+  }
+  console.log(st);
+}
+
+
+
+
+/* 3*** */
+star4(6);
+function star4(n){
+  let st="";
+  for (let i = 1; i <= n; i++){
+    st+="*";
+    console.log(st);
+  }
+  
+  for (let j = n-1; j >0; j--){
+    st="";
+    for(let t=1; t<=j;t++){
+      st+="*";
+    }
+    console.log(st);      
+  }
+}
+
+
+
+
 /* 4 */
+table(3);
+function table(n) {
+  for(let i=1; i<=9;i++){
+    console.log(`${n} X ${i} = ${n*i}`);
+  }
+}
+
+
 /* 5 */
-/* 6 */
+table9to9();
+function table9to9() {
+  for(let i=1; i<=9;i++){
+    for(let j=1; j<=9;j++){
+      console.log(`${i} X ${j} = ${i*j}`);
+    }
+    console.log("\n");
+  }
+}
+
+
+
+
+/* 6(X) */
+
+function fib(n){
+  let a=0;
+  let b=0;
+  let ans=0;
+  for(let i=1;i<=n;i++){
+    
+    a++;
+  
+  }
+
+}
+
+
+
+
+
 /* 7 */
+
+
+
+
+
 /* 8 */
+
+
+
+
+
 /* 9 */
+
+
+
+
+
 /* 10 */
 
 

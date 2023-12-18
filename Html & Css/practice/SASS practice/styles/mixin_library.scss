@@ -1,0 +1,24 @@
+/* 圖片取代文字 */
+@mixin hide-text {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* 製作圓形 */
+@mixin circle($size, $bgcolor) {
+  border-radius: 50%;
+  height: $size;
+  width: $size;
+  font-size: $size/3;
+  background-color: $bgcolor;
+}
+
+.header h1 {
+  background: url(../../images/sun&hand.jpg);
+  @include hide-text;
+}
+
+.box {
+  @include circle(10rem, #0f0);
+}

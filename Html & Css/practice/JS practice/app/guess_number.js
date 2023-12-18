@@ -28,6 +28,8 @@ if(input<n1 || input>n2||isNaN(input)){
 
 
 
+
+
 // function check(input){
 //     while(isNaN(input)){
 //         input=prompt("請輸入0-99之間的「數字」: ");
