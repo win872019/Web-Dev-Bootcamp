@@ -1,0 +1,29 @@
+.aquaBg {
+  background-color: aqua;
+  border: 2px dotted blue;
+}
+
+.pinkBg {
+  background-color: pink;
+  border: 2px dashed darksalmon;
+}
+
+.orangeBorder {
+  border: 2px solid orange;
+}
+
+.bigFont {
+  font-size: 2rem;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.greenFont {
+  color: green;
+}
+
+.brownFont {
+  color: brown;
+}/*# sourceMappingURL=document_obj.css.map */
