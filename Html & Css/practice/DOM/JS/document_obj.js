@@ -18,3 +18,6 @@ let qsa = document.querySelectorAll(".p");
 console.log(qsa);
 console.log(qsa[0]);
 console.log(qsa[1]);
+
+
+

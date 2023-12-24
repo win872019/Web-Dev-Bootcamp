@@ -1,10 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 /* bakground-image */
 body{
-    background-image: url(/practice/images/sun&hand.jpg);
+    background-image: url(/images/sun&hand.jpg);
 }
-
-
-
 
 
 /* pseudo-element */
@@ -33,7 +33,7 @@ a{
 
 /* pseudo-class */
 a:visited{
-    color: grey;
+    color: gold;
 }
 
 
@@ -53,3 +53,5 @@ h3{
 div.link1 a{
     color:red;
 }
+
+
