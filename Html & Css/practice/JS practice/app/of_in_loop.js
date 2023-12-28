@@ -43,3 +43,14 @@ let str="hello";
 for(let a in str){
     console.log(str[a]);
 }
+
+
+// obj
+for(let p in arr2[0]){
+    console.log(p);
+    console.log(arr2[0][p]);
+    console.log(typeof p);
+}
+
+
+
