@@ -77,7 +77,6 @@ console.log(car1.salesman.sayHey==car2.salesman.sayHey);    // output: true
 
 
 
-/* bind, call, apply */
 
 
 
