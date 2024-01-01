@@ -1,5 +1,5 @@
 /* 傳入module */
-let m_human=require('./modules_human');
+const m_human=require('./modules_human');
 
 
 // console.log(m_human);

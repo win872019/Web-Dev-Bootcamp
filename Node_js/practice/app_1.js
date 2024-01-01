@@ -1,5 +1,5 @@
 /* 傳入module */
-let speak=require('./speak');
+const speak=require('./speak');
 
 
 // console.log(speak);
