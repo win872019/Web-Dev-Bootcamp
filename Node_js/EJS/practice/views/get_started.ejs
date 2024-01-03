@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <base target="_target" />
+    <meta name="description" content="" />
+
+    <title>get_started</title>
+    <link rel="stylesheet" href="/styles/get_started.css" />
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <p>This is home page.</p>
+    <table>
+      <tr>
+        <th colspan="4">Class A</th>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <% classA.forEach(st => { %>
+        <td><%= st.fullName %></td>
+        <%}); %>
+      </tr>
+      <tr>
+        <th>Score</th>
+        <% classA.forEach(st => { %>
+        <td><%= st.score %></td>
+        <%}); %>
+      </tr>
+    </table>
+  </body>
+</html>

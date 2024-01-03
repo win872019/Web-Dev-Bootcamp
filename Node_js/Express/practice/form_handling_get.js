@@ -17,7 +17,7 @@ app.get("/formHandling",(req,res)=>{
     console.log(req.query);
 
     let{Name,Age}=req.query;
-    res.send(`<h2>Hi,${Name}! Your age is ${Age}.<h2>`);
+    res.send(`<h2>Hi,${Name}!/  Your age is ${Age}.<h2>`);
 
     // res.send("Thanks for sending data.");
 })
